@@ -3,7 +3,7 @@
 class Companies {
 
   private $mysql;
-
+ 
   // подключение к БД
   function __construct($dbName, $dbPassword = '', $dbUser = 'root', $host = 'localhost') {
 

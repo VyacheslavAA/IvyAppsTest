@@ -9,7 +9,7 @@ var btnParse          = document.querySelector('.btn--parse'),
     actionTypeParse   = '/php/parseAndShowCompanies.php?actionType=parse',
     actionTypeShow    = '/php/parseAndShowCompanies.php?actionType=show',
     companies         = []; // массив принимающий ответ запроса actionTypeShow
-
+ 
 btnParse.addEventListener('click', companiesOnClickHandlerParse);
 btnShow.addEventListener('click', companiesOnClickHandlerShow);
 
